@@ -38,8 +38,10 @@ function App() {
   };
 
   return (
-      <div className="container mx-auto p-4">
+      <div className="mx-auto container p-5">
+    
         <h1 className="text-4xl font-bold mb-4 pb-5">GitHub Repo README Generator</h1>
+        <p className="text-xl font-medium mb-4 pb-5">Effortlessly generate a README file by simply entering your GitHub username and repository name. </p>
         <div className="mb-4">
           <input
             type="text"
@@ -78,6 +80,7 @@ function App() {
           </div>
           </div>
         )}
+        
         <footer>
         <h2 className="text-md font-bold mb-4 pb-5 pt-5">Developed with &#128151; by Mrunank Pawar</h2>
         </footer>
