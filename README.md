@@ -38,4 +38,4 @@ Contributions are welcome and appreciated! If you would like to contribute to re
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). See the `LICENSE` file for more information.
 
 ## Contact Information
-If you have any questions, concerns, or suggestions, please feel free to reach out to the author, mrunankpawar, via email at mrunankpawar@gmail.com or through GitHub at https://github.com/mrunankpawar.
+If you have any questions, concerns, or suggestions, please feel free to reach out to the author, [Mrunank Pawar](https://www.linkedin.com/in/mrunankpawar/) or through GitHub at https://github.com/mrunankpawar.
