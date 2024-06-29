@@ -41,29 +41,31 @@ function App() {
       <div className="mx-auto container p-5">
     
         <h1 className="text-4xl font-bold mb-4 pb-5">GitHub Repo README Generator</h1>
-        <p className="text-xl font-medium mb-4 pb-5">Effortlessly generate a README file by simply entering your GitHub username and repository name. </p>
+        <p className="text-xl font-medium mb-4 pb-5">Effortlessly generate a README file for your project by simply entering GitHub username and repository name. </p>
         <div className="mb-4">
           <input
             type="text"
-            className="border p-2 mr-2 bg-inherit rounded-md text-purple-300 font-semibold" 
+            className="border p-2 mr-2 mt-3 bg-inherit rounded-md text-purple-300 font-semibold" 
             placeholder="GitHub Username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
           <input
             type="text"
-            className="border p-2 mr-2 bg-inherit rounded-md text-purple-300 font-semibold"
+            className="border p-2 mr-2 mt-3 bg-inherit rounded-md text-purple-300 font-semibold"
             placeholder="Repository Name"
             value={repo}
             onChange={(e) => setRepo(e.target.value)}
           />
           <button
-            className="rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-gray-200 dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 text-white p-2 font-semibold"
+            className="mt-3 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-gray-200 dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 text-white p-2 font-semibold"
             onClick={handleFetchRepoDetails}
             disabled={loading}
+        
           > 
             {loading ? "Loading..." : "Generate README"}
           </button>
+          
         </div>
         {error && <div className="text-red-500">{error}</div>}
         {readme && (
