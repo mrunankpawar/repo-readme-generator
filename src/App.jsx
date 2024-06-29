@@ -81,7 +81,7 @@ function App() {
             >
               Copy
             </button>
-            <pre className="bg-gray-700 p-2 whitespace-pre-wrap rounded-md">{readme}</pre>
+            <pre className="bg-indigo-950 p-2 whitespace-pre-wrap rounded-md">{readme}</pre>
           </div>
           </div>
         )}
