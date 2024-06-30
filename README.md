@@ -10,7 +10,7 @@ Welcome to repo-readme-generator, a web application designed to help users easil
 ## Installation
 To install repo-readme-generator, follow these steps:
 
-1. Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+1. Make sure you have [npm](https://www.npmjs.com/) installed on your machine.
 2. Clone or download the repo-readme-generator repository.
 3. Navigate to the project directory in your terminal.
 4. Run `npm install` to install all necessary dependencies.
