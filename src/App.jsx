@@ -2,6 +2,7 @@ import { useState } from "react";
 import { fetchRepoDetails } from "./services/githubService";
 import { generateReadme } from "./services/openAIService";
 import { FaGithub } from "react-icons/fa";
+import LaunchSVG from './assets/Launch_SVG_Dark.svg';
 import "./App.css";
 
 function App() {
@@ -41,7 +42,10 @@ function App() {
   return (
       <div className="mx-auto container p-5">
       <div className="flex justify-center items-center pb-5">
-      <FaGithub className="text-5xl" />
+      <div className="image-container">
+        <img className="svg-image" src={LaunchSVG} alt="Launch SVG"/>
+        <FaGithub className="github-logo text-5xl" />
+      </div>
       </div>
         <h1 className="text-4xl font-bold mb-4 pb-5">GitHub Repo README Generator</h1>
         <p className="text-xl font-medium mb-4 pb-5">Effortlessly generate a README file for your project by simply entering GitHub username and repository name. </p>
