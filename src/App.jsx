@@ -4,6 +4,7 @@ import { generateReadme } from "./services/openAIService";
 import { FaGithub } from "react-icons/fa";
 import LaunchSVG from './assets/Launch_SVG_Dark.svg';
 import "./App.css";
+import ReactMarkdown from 'react-markdown';
 
 function App() {
   const [username, setUsername] = useState("");
@@ -85,7 +86,7 @@ function App() {
             >
               Copy
             </button>
-            <pre className="bg-indigo-950 p-2 whitespace-pre-wrap rounded-md">{readme}</pre>
+            <ReactMarkdown  className="bg-indigo-950 py-2 px-10 rounded-md markdown text-left">{readme}</ReactMarkdown >
           </div>
           </div>
         )}
